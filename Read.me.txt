@@ -1,0 +1,56 @@
+ Global Superstore Dashboard - Power BI Project
+
+This Power BI report visualizes and analyzes the Global Superstore dataset — a sample dataset containing sales, profit, shipping, and customer data across regions and time. The goal of this project is to uncover key business insights and demonstrate the power of data visualization for decision-making.
+
+Report Highlights
+
+The report contains multiple pages focused on various business KPIs, including:
+
+Sales Performance Overview
+  - Total Sales, Profit, Quantity Sold
+  - Trend analysis over time
+Geographical Analysis
+  - Sales by Country and Region
+  - Profitability heat maps
+Product Category & Sub-Category Insights
+  - Top/Bottom performing products
+  - Segment analysis
+Shipping Cost and it's effects
+ -Impact of shipping cost in some regions
+ - Impact of shipping mode on profit
+
+
+📁 Project Structure
+
+Global-Superstore-PowerBI
+├── GlobalSuperstore.pbix 
+├── README.md # Project documentation 
+└── GlobalSuperstore.csv 
+
+
+Insights Uncovered
+
+- Some countries drive higher profits despite fewer sales — highlighting pricing or operational efficiency.
+- Certain sub-categories (e.g., Tables, Machines) result in net losses and may require further analysis or strategy review.
+- The African Region has low profits in 2014 compared to some other regions  with Nigeria at the bottom  with greater loss as a result of high shipping cost.
+
+
+Getting Started
+
+To explore the report:
+
+1. Clone or download this repository
+2. Open `GlobalSuperstore.pbix` using [Power BI Desktop]
+3. Refresh the dataset if needed (ensure `GlobalSuperstore.csv` is in the correct path)
+4. Navigate through the report pages to explore different insights
+
+Requirements
+
+- Power BI Desktop (latest version recommended)
+- Optional: Global Superstore dataset in `.csv` format (already embedded in `.pbix`)
+
+Feedback or Contributions
+
+Feel free to fork this repo, improve the report, or suggest new visualizations. Open issues or pull requests for any ideas or enhancements!
+
+
